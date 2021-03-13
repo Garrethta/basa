@@ -21,43 +21,10 @@ $(function () {
         }
     });
 
-    // $('.format__content-btn').magnificPopup({
-    //     callbacks: {
-    //         open: function () {
-    //             $('body').AddClass('modal-open');
-    //         }
-    //     },
-    //     close: function() {
-    //         $('body').remove('modal-open');
-    //       }
-    // });
-
     $('.visualization__slider-items').slick({
         fade: true,
         prevArrow: '<div class="visualization__prev"></div>',
         nextArrow: '<div class="visualization__next"></div>',
     });
-
-    // $('.visualization__bottom-btn').magnificPopup({
-    //     callbacks: {
-    //         open: function () {
-    //             $('body').AddClass('modal-open');
-    //         }
-    //     }
-    // });
-    // $('.news--left__content-item-btn').magnificPopup({
-    //     callbacks: {
-    //         open: function () {
-    //             $('body').AddClass('modal-open');
-    //         }
-    //     }
-    // });
-    // $('.developer--bottom__btn').magnificPopup({
-    //     callbacks: {
-    //         open: function () {
-    //             $('body').AddClass('modal-open');
-    //         }
-    //     }
-    // });
 
 });

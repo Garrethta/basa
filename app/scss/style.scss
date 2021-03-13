@@ -63,10 +63,6 @@ button:focus {
     cursor: pointer;
     transition: all 0.3s;
 }
-.modal-open{
-    height: 100vh;
-    overflow-y: hidden;
-}
 .popup {
     width: 320px;
     margin: 0 auto;
@@ -116,14 +112,6 @@ button:focus {
     &-btn {
         display: block;
         padding: 25px 75px;
-        // background-color: transparent;
-        // border: 2px solid #ffa400;
-        // font-family: "Montserrat-Bold";
-        // font-size: 20px;
-        // line-height: 24px;
-        // color: #ffa400;
-        // cursor: pointer;
-        // transition: all 0.3s;
         &:hover {
             background-color: #ffa400;
             border: 2px solid #fff;
@@ -383,16 +371,8 @@ button:focus {
         align-items: center;
     }
     &__schedule-btn {
-        // font-family: "Montserrat-Bold";
-        // font-size: 20px;
-        // line-height: 24px;
-        // background-color: transparent;
         padding: 20px 40px;
-        // border: 2px solid #ffa400;
-        // color: #ffa400;
         margin-right: 116px;
-        // cursor: pointer;
-        // transition: all 0.3s;
         &:hover {
             background-color: #ffa400;
             border: 2px solid #000;
@@ -491,17 +471,8 @@ button:focus {
         background-color: #111820;
     }
     &__bottom-btn {
-        // font-family: "Montserrat-Bold";
-        // font-size: 20px;
-        // line-height: 24px;
-        // text-align: center;
-        // background-color: transparent;
-        // border: 2px solid #ffa400;
-        // color: #ffa400;
         padding: 10px 60px;
         max-width: 270px;
-        // cursor: pointer;
-        // transition: all 0.3s;
         &:hover {
             background-color: #ffa400;
             border: 2px solid #fff;
@@ -536,70 +507,6 @@ button:focus {
         display: inline-block;
         max-width: 560px;
     }
-    // &-popup {
-    //     width: 320px;
-    //     margin: 0 auto;
-    //     .mfp-close {
-    //         display: none;
-    //     }
-    // }
-    // &-popup__inner {
-    //     background-color: #101820;
-    //     padding: 25px 40px;
-    //     text-align: center;
-    //     // width: 320px;
-    //     margin: 0 auto;
-    // }
-    // &-popup__title {
-    //     font-family: "Montserrat-Bold";
-    //     font-size: 24px;
-    //     line-height: 29px;
-    //     color: #fff;
-    //     margin-bottom: 43px;
-    // }
-    // &-popup__form {
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-items: center;
-    //     input[type="text"] {
-    //         display: block;
-    //         margin-bottom: 52px;
-    //         background-color: transparent;
-    //         border: none;
-    //         border-bottom: 1px solid #ffa400;
-    //         text-align: center;
-    //         font-size: 16px;
-    //         line-height: 20px;
-    //         color: #fff;
-    //         padding: 3px 15px 7px;
-    //         &::placeholder {
-    //             background-color: transparent;
-    //             font-size: 16px;
-    //             line-height: 20px;
-    //             color: #fff;
-    //         }
-    //         &:focus {
-    //             outline: none;
-    //         }
-    //     }
-    // }
-    // &-popup__btn {
-    //     display: block;
-    //     padding: 25px 75px;
-    //     // background-color: transparent;
-    //     // border: 2px solid #ffa400;
-    //     // font-family: "Montserrat-Bold";
-    //     // font-size: 20px;
-    //     // line-height: 24px;
-    //     // color: #ffa400;
-    //     // cursor: pointer;
-    //     // transition: all 0.3s;
-    //     &:hover {
-    //         background-color: #ffa400;
-    //         border: 2px solid #fff;
-    //         color: #fff;
-    //     }
-    // }
 }
 .format {
     margin-bottom: 60px;
@@ -819,9 +726,6 @@ button:focus {
         color: #fff;
         letter-spacing: 0.05em;
         max-width: 361px;
-        // margin-top: 33px;
-        // margin-left: 97px;
-        // margin-right: 50px;
         margin: 33px 50px 20px 97px;
         h4 {
             font-family: "Montserrat-Bold";
@@ -1277,7 +1181,6 @@ button:focus {
     }
     &__docs {
         background-color: #fff;
-        // max-width: 630px;
         padding: 30px 20px;
         margin-top: -50px;
         margin-left: 48px;
